@@ -1,0 +1,107 @@
+body{
+    background-color: lightgray;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+h1,h2,h3 {
+    margin: 0px;
+    padding: 0px;
+}
+#cantainer {
+    background-color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    background-color:blue; 
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#header h1{
+   color: white;
+   background-color:blue; 
+   padding: 3px;
+    border-radius: 3px;
+    border: 1.3px solid white;
+
+}
+#header h1:hover{
+    background-color: white;
+   color:blue; 
+   padding: 3px;
+    border-radius: 3px;
+}
+#content {
+    padding: 10px;
+
+}
+.nav{
+    width: 172px; /* less border(1*1) & paddind (3*2*/
+    float: left; /* since <div> are always apreared on a new line float come inreturn */
+    color: black;
+    padding: 3px;
+    border: 1px solid rgb(0, 26, 255);
+
+    border-radius: 3px;
+}
+}
+.nav .selected {
+    font-weight: bold;
+}
+.nav:hover, ul li:hover{
+    background-color:blue; 
+    border-radius: 3px;
+    color: black;
+
+}
+.nav ul {
+list-style-type: none;
+padding: 0px 0px  0px  10px; }
+
+.nav ul li a:hover{
+    background-color: white;
+    color:rgb(88, 62, 202); ;
+    padding: 3px;
+    border-radius: 3px;
+}
+.main{
+    width: 585px;
+    margin-left: 15px;
+    float: right; /* since <div> are always apreared on a new line float come inreturn */
+
+
+}
+#footer {
+    clear: both; /* since the floating, the footer doesn't care about the overflow of the float
+    so has to be cleared both before 
+    and to let go the floating first and desplay next to them
+
+    // Shortley clearing: both; means Let it get pass all the floating elemnet 
+        and get displayed next to them
+    */
+    color: white;
+    background-color:blue; 
+
+     padding: 3px;
+     border-radius: 3px;
+     border: 1.3px solid white;}
+#Copyright{
+        text-align: center;
+        color: white;
+        background-color:blue; 
+        padding: 3px;
+         border-radius: 3px;
+         border: 1.3px solid white;
+     }
+#Copyright:hover{
+    background-color: white;
+   color:blue; 
+   padding: 3px;
+    border-radius: 3px;
+}
